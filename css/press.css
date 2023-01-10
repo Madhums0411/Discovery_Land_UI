@@ -1,0 +1,283 @@
+.header {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+
+}
+.header-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* border: 2px solid blue; */
+}
+.navbar {
+    display: flex;
+    position: relative;
+    bottom: 90%;
+    width: 100%;
+    /* border: 2px solid; */
+    justify-content: space-around;
+
+
+}
+
+.logo {
+    width: 150px;
+    height: 40px;
+
+
+}
+
+
+.navLink {
+    display: flex;
+    font-size: 15px;
+    font-weight: 300;
+    /* padding-left: 20%;
+    padding-right: 20px; */
+    /* flex-direction: row; */
+    justify-content: space-around;
+
+}
+
+.nav-item {
+    margin-right: 35px;
+    /* margin-top: 8px; */
+}
+
+.navlink-anchor {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    /* font-weight: bold; */
+    transition: 0.4s ease-in-out;
+
+}
+
+.menu-icon {
+    display: flex;
+    position: relative;
+    /* top: 10px; */
+    background-color: #fff;
+}
+.sometext {
+    position: relative;
+    bottom: 65%;
+    left: 25%;
+    max-width: 25%;
+    font-size: 3em;
+    font-weight: 100;
+    animation: bounce 3s;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.main-outer-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container-fluid>h2{
+    /* border: 2px solid green; */
+    font-weight:100;
+    font-family: gt-sectra;
+    padding: 5%;
+
+}
+.container-fluid{
+/* border: 2px solid red; */
+background-color:#f3f3f3;
+}
+
+.carousel-outer-container{
+    display: flex;
+    /* border: 2px solid red; */
+
+}
+
+.left-section{
+
+    /* border: 2px solid blue; */
+    width:50vw;
+    height: 100%;
+    margin-left: 2.5%;
+
+}
+
+
+
+
+
+.right-section{
+
+    /* border: 2px solid blue; */
+   
+    background-color: white;
+    height: 100%;
+    margin-left: -10%;
+    margin-top: 5%;
+    margin-right: 10%;
+    position: relative;
+}
+
+
+
+.grey-sections {
+    /* border: 10px solid red; */
+    background-color: #f3f3f3;
+    padding-top: 15vh;
+}
+.section-heading{
+    font-size: 2.5em;
+color: black;
+padding-left: 10%;
+padding-bottom: 10vh;
+}
+.section-figure {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* border: 10px solid red; */
+    position: relative;
+    z-index: 2;
+    padding-left: 5%;
+}
+
+.section, .mid-section {
+    /* border: 10px solid green; */
+    display: flex;
+    height: 140vh;
+    position: relative;
+}
+
+.section-img {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 8%;
+    width: 100%;
+    height: 80%;
+}
+
+
+.section-img-info {
+    /* border: 5px solid blue; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    right: 10%;
+    top: 7%;
+    width: 40%;
+    height: 50%;
+    z-index: 3;
+    padding: 5%;
+    background-color: white;
+}
+
+.section-img-heading {
+    font-size: 1em;
+    color: #777;
+}
+.section-img-heading1 {
+    font-size: 2em;
+    color:black;
+}
+.section-img-para {
+    color: #777777;
+    font-size: 1.0em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.section-img-btn {
+    height: 15%;
+    width: 35%;
+    background-color: transparent;
+    border: 1px solid gray;
+}
+
+.section-img-btn:hover {
+    border: 2px solid black;
+}
+.explore-button button{
+ 
+    border-color: #777;
+    border-width: 0.5px;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    background: transparent;
+}
+
+
+.arrow-outer-container{
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.arrow-buttons{
+/* border: 2px solid blue; */
+margin:5%;
+display: flex;
+min-width: 15%;
+justify-content: center;
+justify-content: space-around;
+}
+
+
+.footer-container {
+    background-color: #161F1E;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100vw;
+    height: 50vh;
+    justify-content: space-around;
+}
+
+.footer-item-one {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8%;
+}
+
+.footer-items {
+    display: flex;
+}
+
+.footer-items-img {
+    width: 25px;
+    height: 25px;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.links {
+    margin-bottom: 50px;
+font-family: Arial;
+}
+
+.contact-info,
+.link,
+.page {
+    margin-bottom: 10px;
+}
+
+.copyright {
+    font-size: 12px;
+    opacity: 0.5;
+    width: 50%;
+    position: relative;
+    left: 9%;
+    bottom: 10%;
+}
